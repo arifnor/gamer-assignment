@@ -1,0 +1,78 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared style */
+* {
+    font-family: Work Sans;
+}
+
+
+/* navbar style */
+.container {
+    width: 1920px;
+    height: 130px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    background-position: center;
+    padding: 10px 8%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav p {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.logo {
+    width: 180px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #3C354F;
+    text-decoration: none;
+}
+
+.container {}
+
+/* second section style */
+.container {
+    width: 1920px;
+    height: 5927px;
+}
+
+/* play istant style */
+.play-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.play-container-2 {
+    position: relative;
+}
+
+.play-instantly {
+    text-align: center;
+}
